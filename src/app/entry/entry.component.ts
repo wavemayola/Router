@@ -2,14 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { SharedService } from '../shared.service';
 
 @Component({
-  selector: 'app-entry-component',
-  templateUrl: './entry-component.component.html',
-  styleUrls: ['./entry-component.component.css']
+  selector: 'app-entry',
+  templateUrl: './entry.component.html',
+  styleUrls: ['./entry.component.css']
 })
-export class EntryComponentComponent implements OnInit {
-
-  constructor(private dataStore: SharedService) { }
-
+export class EntryComponent implements OnInit {
+constructor(private dataStore: SharedService) { }
   ngOnInit() {
   }
 
